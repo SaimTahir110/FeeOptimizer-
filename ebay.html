@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ebay Fee Calculator</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/icon-1.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h2 class="m-0 text-primary"><img class="img-fluid me-2" src="img/icon-1.png" alt=""
+                    style="width: 45px;">FeeOptimizer</h2>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+
+                <div class="nav-item dropdown">
+                    <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">E-Commerce Calculators</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="Amazon.html" class="dropdown-item">Amazon</a>
+                        <a href="walmart.html" class="dropdown-item">WalMart</a>
+                        <a href="ebay.html" class="dropdown-item">eBay</a>
+                        <a href="Etsy.html" class="dropdown-item">Etsy</a>
+                        <a href="StockX.html" class="dropdown-item">StockX</a>
+                        <a href="paypal.html" class="dropdown-item">Paypal</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Financial Calculators</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="Salary.html" class="dropdown-item">Salary Calculator</a>
+                        <a href="retirment.html" class="dropdown-item">Retirement Calculator</a>
+                        <a href="lone.html" class="dropdown-item">Loan Calculator</a>
+                        <a href="investment.html" class="dropdown-item">Investment Calculator</a>
+                        <a href="I Rate.html" class="dropdown-item">Interest Rate Calculator</a>
+                        <a href="payment.html" class="dropdown-item">Payment Calculator</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Other Calculators</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="conversion.html" class="dropdown-item"> Conversion Calculator</a>
+                        <a href="age.html" class="dropdown-item">Age Calculator</a>
+                        <a href="gpa.html" class="dropdown-item">CGPA Calculator</a>
+                        <a href="Calorie.html" class="dropdown-item">Calorie Calculator</a>
+                        <a href="data storage.html" class="dropdown-item">Data Storage Conversion</a>
+                        <a href="Bmi.html" class="dropdown-item">BMI Calculator</a>
+
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tools</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="YT thum.html" class="dropdown-item">Thumbnails Downloder</a>
+                        <a href="Password.html" class="dropdown-item">Password Genrator</a>
+                        <a href="words.html" class="dropdown-item">Word Counter</a>
+                        <a href="QR.html" class="dropdown-item">QR Code Genrator</a>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid hero-header bg-light py-5 mb-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 mb-3 animated slideInDown">Ebay Fee Calculator.</h1>
+                    <p class="animated slideInDown">eBay Fee Calculator is made to assist you in calculating your fees so that you may successfully sell a goods on eBay. As online vendors, we found it challenging to calculate costs, so we set out to make a simple calculator to make things easier.
+                        .</p>
+                    <a href="index.html" class="btn btn-primary py-3 px-4 animated slideInDown">Explore More</a>
+                </div>
+                <div class="col-lg-6 animated fadeIn">
+                    <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/hero-ebay.png"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <!-- Header End -->
+
+            <div class="container">
+                <h1>eBay Fee Calculation Calculator</h1>
+        
+                <div id="calculator">
+                    <h2>Product Details</h2>
+                    <label for="productCategory">Product Category:</label>
+                    <input type="text" id="productCategory">
+                    <label for="itemPrice">Item Price:</label>
+                    <input type="number" id="itemPrice">
+                    <label for="itemCost">Item Cost:</label>
+                    <input type="number" id="itemCost">
+                    <label for="shippingCharges">Shipping Charges:</label>
+                    <input type="number" id="shippingCharges">
+                    <label for="shippingCost">Shipping Cost:</label>
+                    <input type="number" id="shippingCost">
+        
+                    <button id="calculateButton">Calculate Your Fee</button>
+        
+                    <div class="result-container">
+                        <div id="results" class="result-card"></div>
+                        <div id="pieChart" class="chart"></div>
+                        <div id="barGraph" class="chart"></div>
+                    </div>
+                </div>
+            </div>
+        
+            <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.28.3"></script>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+    const calculateButton = document.getElementById("calculateButton");
+    const resultsContainer = document.getElementById("results");
+    const pieChartContainer = document.getElementById("pieChart");
+    const barGraphContainer = document.getElementById("barGraph");
+
+    calculateButton.addEventListener("click", function() {
+        const productCategory = document.getElementById("productCategory").value;
+        const itemPrice = parseFloat(document.getElementById("itemPrice").value);
+        const itemCost = parseFloat(document.getElementById("itemCost").value);
+        const shippingCharges = parseFloat(document.getElementById("shippingCharges").value);
+        const shippingCost = parseFloat(document.getElementById("shippingCost").value);
+
+        const revenue = itemPrice + shippingCharges;
+        const totalFee = 0.1 * revenue;
+        const costOfGoodsSold = itemCost + shippingCost + totalFee;
+        const grossProfit = revenue - costOfGoodsSold;
+        const profitMargin = (grossProfit / revenue) * 100;
+
+        resultsContainer.innerHTML = `
+            <div class="result-field">
+                <div class="result-label">Revenue:</div>
+                <div class="result-value">$${revenue.toFixed(2)}</div>
+            </div>
+            <div class="result-field">
+                <div class="result-label">Total Fee:</div>
+                <div class="result-value">$${totalFee.toFixed(2)}</div>
+            </div>
+            <div class="result-field">
+                <div class="result-label">Cost of Goods Sold (incl. Fee):</div>
+                <div class="result-value">$${costOfGoodsSold.toFixed(2)}</div>
+            </div>
+            <div class="result-field">
+                <div class="result-label">Gross Profit:</div>
+                <div class="result-value">$${grossProfit.toFixed(2)}</div>
+            </div>
+            <div class="result-field">
+                <div class="result-label">Profit Margin:</div>
+                <div class="result-value">${profitMargin.toFixed(2)}%</div>
+            </div>
+        `;
+
+        const pieChartData = [revenue, totalFee, costOfGoodsSold, grossProfit];
+        const pieChartLabels = ['Revenue', 'Total Fee', 'Cost of Goods Sold', 'Gross Profit'];
+
+        const pieChartOptions = {
+            series: pieChartData,
+            labels: pieChartLabels,
+            chart: {
+                type: 'pie',
+                height: 300
+            },
+            legend: {
+                position: 'bottom'
+            }
+        };
+
+        const pieChartInstance = new ApexCharts(pieChartContainer, pieChartOptions);
+        pieChartInstance.render();
+
+        const barGraphData = [revenue, totalFee, costOfGoodsSold, grossProfit];
+        const barGraphLabels = ['Revenue', 'Total Fee', 'Cost of Goods Sold', 'Gross Profit'];
+
+        const barGraphOptions = {
+            series: [{
+                data: barGraphData
+            }],
+            chart: {
+                type: 'bar',
+                height: 300
+            },
+            xaxis: {
+                categories: barGraphLabels
+            },
+            yaxis: {
+                title: {
+                    text: 'Value'
+                }
+            }
+        };
+
+        const barGraphInstance = new ApexCharts(barGraphContainer, barGraphOptions);
+        barGraphInstance.render();
+    });
+});
+
+            </script>
+       
+           
+       <div class="container">
+        <div class="card">
+          <div class="container">
+          <P>One of the largest online marketplaces in the world, eBay, provides an excellent way for merchants to connect with a sizable client base. Like every commercial endeavor, success depends on a comprehension of the expenses. This blog post will go through the eBay Fee Calculator, a helpful resource that aids sellers in specifically projecting their costs. Let's go into the specifics so you can make wise financial decisions.</P>
+        </div>
+        </div>
+      
+      
+         <style>
+           
+       
+           th, td {
+             border: 1px solid #000000;
+             padding: 8px;
+             text-align: left;
+           }
+       
+           th {
+             background-color: #f2f2f2;
+           }
+       
+           tr:nth-child(even) {
+             background-color: #f2f2f2;
+           }
+          
+       table{
+        color: black;
+       }
+         </style>
+       </head>
+       <body>
+         <h2>factors impacting the price of selling on eBay</h2>
+         <table>
+           <tr>
+             <th>Factor</th>
+             <th>Description</th>
+             <th>Impact</th>
+           </tr>
+           <tr>
+             <td>Listing Format</td>
+             <td>According to the listing method (fixed price or auction-style), different placement and final value fees occur.</td>
+             <td>can have a big impact on the total cost.</td>
+           </tr>
+           <tr>
+             <td>Item Category</td>
+             <td>The cost of insertion and final value fees are decided by the category to which your product belongs.</td>
+             <td>Depending on the category, the situation might change.</td>
+           </tr>
+           <tr>
+             <td>Selling Price</td>
+             <td>Considering final value fees are calculated as a portion of the selling price, more expensive things have more expenses.</td>
+             <td>Higher fees are a consequence of higher the cost.</td>
+           </tr>
+           <tr>
+             <td>Listing Upgrades</td>
+             <td>The costs of optional listing improvements will be included in your overall expenses if you elect to employ them.</td>
+             <td>optional but could increase costs.</td>
+           </tr>
+         </table>
+    
+
+     
+        
+       <!-- Service Start  -->
+       <div class="container py-5">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="display-6">E-Commerce Calculators</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-7.png" alt="">
+                    <h5 class="mb-3">Amazon</h5>
+                    <a href="Amazon.html">Calculat Your Fee <i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
+                    <h5 class="mb-3">WalMart</h5>
+                    <a href="walmart.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-9.png" alt="">
+                    <h5 class="mb-3">eBay</h5>
+                    <a href="ebay.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-5.png" alt="">
+                    <h5 class="mb-3">Etsy</h5>
+                    <a href="Etsy.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
+                    <h5 class="mb-3">StockX</h5>
+                    <a href="StockX.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-8.png" alt="">
+                    <h5 class="mb-3">Paypal</h5>
+                    <a href="paypal.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<!-- Service End -->
+
+
+<!--Blog-->
+
+  <style>
+    
+    th, td {
+      border: 1px solid #000000;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #000000;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    table{
+        color: black;
+    }
+    
+  </style>
+ <div class="container">
+  <h2>eBay's Seller Fees</h2>
+  <table>
+    <tr>
+      <th>Fee Type</th>
+      <th>Description</th>
+      <th>Amount</th>
+    </tr>
+    <tr>
+      <td>Insertion Fee</td>
+      <td>Fee to create a listing on eBay.</td>
+      <td>Varies based on listing format and store subscription level.</td>
+    </tr>
+    <tr>
+      <td>Final Value Fee (FVF)</td>
+      <td>Fee charged when an item sells.</td>
+      <td>Percentage of the final sale price (includes item price and shipping).</td>
+    </tr>
+    <tr>
+      <td>Optional Listing Upgrade Fees</td>
+      <td>Additional fees for optional listing features to enhance visibility.</td>
+      <td>Varies based on the selected upgrade.</td>
+    </tr>
+  </table>
+
+
+
+<!-- Service Start 02-->
+<div class="container py-5">
+    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+        <h1 class="display-6">Financial Calculators</h1>
+    </div>
+    <div class="row g-4">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-salary .png" alt="">
+                <h5 class="mb-3">Salary Calculator</h5>
+                <a href="Salary.html">Calculat Your Fee <i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-Retirement .png" alt="">
+                <h5 class="mb-3">Retirement Calculator</h5>
+                <a href="retirment.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-Loan.png" alt="">
+                <h5 class="mb-3">Loan Calculator</h5>
+                <a href="lone.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-Investment.png" alt="">
+                <h5 class="mb-3">Investment Calculator</h5>
+                <a href="investment.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-Interest Rate .png" alt="">
+                <h5 class="mb-3">Interest Rate Calculator</h5>
+                <a href="I Rate.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-Payment.png" alt="">
+                <h5 class="mb-3">Payment Calculator</h5>
+                <a href="payment.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Service End -->
+
+<!-- Service Start 03-->
+<div class="container py-5">
+    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+        <h1 class="display-6">Other Calculators</h1>
+    </div>
+    <div class="row g-4">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-conversion.png" alt="">
+                <h5 class="mb-3">Conversion Calculator</h5>
+                <a href="conversion.html">Calculat Your Fee <i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-age.png" alt="">
+                <h5 class="mb-3">Age Calculator</h5>
+                <a href="age.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-gpa.png" alt="">
+                <h5 class="mb-3">CGPA Calculator</h5>
+                <a href="gpa.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-calories.png" alt="">
+                <h5 class="mb-3">Calorie Calculator</h5>
+                <a href="Calorie.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-byte.png" alt="">
+                <h5 class="mb-3">Data Storage Conversion</h5>
+                <a href="data storage.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/ICON-bmi.png" alt="">
+                <h5 class="mb-3">BMI Calculator</h5>
+                <a href="Bmi.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Service End -->
+
+
+  <!-- Footer Start --> 
+  <footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span>1010 Avenue, sw 54321, chandigarh</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>9876543210 0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>mail@info.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2023, All Right Reserved <a href="https://aboutthepc.com/">FeeOptimizer</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="Privacy Policy.html">Privacy policy</a></li>
+                            <li><a href="Disclaimer.html">Disclaimer</a></li>
+                            <li><a href="Terms.html">Term and Conditions</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>                   
+
+
+<!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    
+    
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

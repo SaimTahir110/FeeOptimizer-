@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FeeOptimizer-Free e-commerce calculators.</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/icon-1.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h2 class="m-0 text-primary"><img class="img-fluid me-2" src="img/icon-1.png" alt=""
+                    style="width: 60px;">FeeOptimizer</h2></a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+
+    
+
+                <div class="nav-item dropdown">
+                    <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">E-Commerce Calculators</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="Amazon.html" class="dropdown-item">Amazon</a>
+                        <a href="walmart.html" class="dropdown-item">WalMart</a>
+                        <a href="ebay.html" class="dropdown-item">eBay</a>
+                        <a href="Etsy.html" class="dropdown-item">Etsy</a>
+                        <a href="StockX.html" class="dropdown-item">StockX</a>
+                        <a href="paypal.html" class="dropdown-item">Paypal</a>
+                    </div>
+                </div>
+                
+                <div class="nav-item dropdown">
+                    <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Financial Calculators</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="Salary.html" class="dropdown-item">Salary Calculator</a>
+                        <a href="retirment.html" class="dropdown-item">Retirement Calculator</a>
+                        <a href="lone.html" class="dropdown-item">Loan Calculator</a>
+                        <a href="investment.html" class="dropdown-item">Investment Calculator</a>
+                        <a href="I Rate.html" class="dropdown-item">Interest Rate Calculator</a>
+                        <a href="payment.html" class="dropdown-item">Payment Calculator</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Other Calculators</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="conversion.html" class="dropdown-item"> Conversion Calculator</a>
+                        <a href="age.html" class="dropdown-item">Age Calculator</a>
+                        <a href="gpa.html" class="dropdown-item">CGPA Calculator</a>
+                        <a href="Calorie.html" class="dropdown-item">Calorie Calculator</a>
+                        <a href="data storage.html" class="dropdown-item">Data Storage Conversion</a>
+                        <a href="Bmi.html" class="dropdown-item">BMI Calculator</a>
+
+                    </div>
+                </div>
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tools</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="YT thum.html" class="dropdown-item">Thumbnails Downloder</a>
+                        <a href="Password.html" class="dropdown-item">Password Genrator</a>
+                        <a href="words.html" class="dropdown-item">Word Counter</a>
+                        <a href="QR.html" class="dropdown-item">QR Code Genrator</a>
+                       
+                    </div>
+                </div>
+                
+            </div>
+
+        
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    
+    <title>Stick Icons</title>
+    <style>
+        .sticky-icon  {
+	z-index:1;
+	position:fixed;
+	top:15%;
+	right:0%;
+	width:220px;
+	display:flex;
+	flex-direction:column;}  
+.sticky-icon a  {
+	transform:translate(160px,0px);
+	border-radius:50px 0px 0px 50px;
+	text-align:left;
+	margin:2px;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:10px;
+	font-size:22px;
+	font-family:'Oswald', sans-serif;
+	transition:all 0.8s;}
+.sticky-icon a:hover  {
+	color:#FFF;
+	transform:translate(0px,0px);}	
+.sticky-icon a:hover i  {
+	transform:rotate(360deg);}
+
+.Facebook  {
+	background-color:#000000;
+	color:#FFF;}
+	
+.Youtube  {
+	background-color:#000000;
+	color:#FFF;}
+		
+.Instagram  {
+	background-color:#000000;
+	color:#FFF;}
+						
+.sticky-icon a i {
+	background-color:#FFF;
+	height:40px;
+	width:40px;
+	color:#000;
+	text-align:center;
+	line-height:40px;
+	border-radius:50%;
+	margin-right:20px;
+	transition:all 0.5s;}
+.sticky-icon a i.fa-facebook-f  {
+	background-color:#FFF;
+	color:#2C80D3;}
+	
+.sticky-icon a i.fa-instagram  {
+	background-color:#FFF;
+	color:#FD1D1D;}
+	
+.sticky-icon a i.fa-youtube  {
+	background-color:#FFF;
+	color:#fa0910;}
+		
+#myBtn {
+	height:50px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  text-align:center;
+  padding:10px;
+  text-align:center;
+	line-height:40px;
+  border: none;
+  outline: none;
+  background-color: #1e88e5;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.fa-arrow-circle-up  {
+	font-size:30px;}
+
+#myBtn:hover {
+  background-color: #555;
+}			
+    </style>
+    <div class="sticky-icon">
+        <a href="https://www.instagram.com/?hl=en" class="Instagram"><i class="fab fa-instagram"></i> Instagram </a>
+        <a href="https://www.facebook.com/" class="Facebook"><i class="fab fa-facebook-f"> </i> Facebook </a>
+        <a href="https://www.youtube.com/@WEBZONE397" class="Youtube"><i class="fab fa-youtube"></i> Youtube </a> 
+     </div>
+
+
+    <!-- Header Start -->
+    <div class="container-fluid hero-header bg-light py-5 mb-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 mb-3 animated slideInDown">Welcome To FeeOptimizer
+
+                    </h1>
+                    <p class="animated slideInDown"><p>FeeOptimizer provides many free ecommerce calculators to assist you in determining your costs and profitability at various pricing points for marketplaces like Amazon, WalMart, eBay, Etsy, Fiverr & Paypal.</h4></p>
+                    <a href="fiverr.html" class="btn btn-primary py-3 px-4 animated slideInDown">Fiverr calculator</a>
+                    <a href="upwork.html" class="btn btn-primary py-3 px-4 animated slideInDown">Upwork Calculator</a>
+                  
+                    
+                </div>
+                <div class="col-lg-6 animated fadeIn">
+                    <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/hero-1.png"
+                        alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+      <title>Why Choose FeeOptimizer</title>
+      <style>
+    
+        .grid {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-gap: 20px;
+        }
+    
+        .reason {
+          border: 2px solid #ddd;
+          border-radius: 5px;
+          padding: 20px;
+        }
+    
+        .reason h3 {
+          font-size: 1.2em;
+          margin-bottom: 10px;
+          color: hsl(191, 100%, 54%);
+        }
+    
+        .reason p {
+          font-size: 1em;
+          line-height: 1.6;
+          color: black;
+        }
+      </style>
+      <div class="container">
+        <h1>Why Choose FeeOptimizer?</h1>
+        <div class="grid">
+          <div class="reason">
+            <h3>Embrace Your Inner Shopper with E-Commerce!</h3>
+            <p>With the help of our E-Commerce calculators, improve your buying experience. We provide you the tools you need to save money like a pro, from locating the best offers to figuring out shipping costs! With only a click of a button, shoppers can become more savvy consumers and experience the pleasure of discovering hidden savings.</p>
+          </div>
+          <div class="reason">
+            <h3>Financial Freedom at Your Doorstep</h3>
+            <p>Financial Freedom at Your Doorstep
+                Use our financial calculators to empower yourself and take charge of your financial future. You can easily strategize investments, manage debts, and plan your money. Learn about your financial situation so that you can make choices that will lead to a profitable future.</p>
+          </div>
+          <div class="reason">
+            <h3>Calculate Your Age: Savour Every Second</h3>
+            <p>Because time is limited, CalcHub cherishes each and every second. To appreciate every moment of your life's journey, use our age calculator! In a heartbeat, consider achievements, memories, and the beauty of the years going by.</p>
+          </div>
+          <div class="reason">
+            <h3>Academic Excellence Simplified with a CGPA Calculator</h3>
+            <p>Our CGPA Calculator makes academic excellence attainable for both students and teachers. Stay focused on completing your academic objectives while easily calculating cumulative grades.</p>
+          </div>
+        </div>
+      </div>
+  
+    
+    <!-- Service Start  -->
+        <div class="container py-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6">E-Commerce Calculators</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-7.png" alt="">
+                        <h5 class="mb-3">Amazon</h5>
+                        <a href="Amazon.html">Calculat Your Fee <i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
+                        <h5 class="mb-3">WalMart</h5>
+                        <a href="walmart.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-9.png" alt="">
+                        <h5 class="mb-3">eBay</h5>
+                        <a href="ebay.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-5.png" alt="">
+                        <h5 class="mb-3">Etsy</h5>
+                        <a href="Etsy.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
+                        <h5 class="mb-3">StockX</h5>
+                        <a href="StockX.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-8.png" alt="">
+                        <h5 class="mb-3">Paypal</h5>
+                        <a href="paypal.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- Service End -->
+
+    <!-- Service Start 02-->
+    <div class="container py-5">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="display-6">Financial Calculators</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-salary .png" alt="">
+                    <h5 class="mb-3">Salary Calculator</h5>
+                    <a href="Salary.html">Calculat Your Fee <i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-Retirement .png" alt="">
+                    <h5 class="mb-3">Retirement Calculator</h5>
+                    <a href="retirment.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-Loan.png" alt="">
+                    <h5 class="mb-3">Loan Calculator</h5>
+                    <a href="lone.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-Investment.png" alt="">
+                    <h5 class="mb-3">Investment Calculator</h5>
+                    <a href="investment.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-Interest Rate .png" alt="">
+                    <h5 class="mb-3">Interest Rate Calculator</h5>
+                    <a href="I Rate.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-Payment.png" alt="">
+                    <h5 class="mb-3">Payment Calculator</h5>
+                    <a href="payment.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+ <!-- Service Start 03-->
+ <div class="container py-5">
+    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+        <h1 class="display-6">Other Calculators</h1>
+    </div>
+    <div class="row g-4">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-conversion.png" alt="">
+                <h5 class="mb-3">Conversion Calculator</h5>
+                <a href="conversion.html">Calculat Your Fee <i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-age.png" alt="">
+                <h5 class="mb-3">Age Calculator</h5>
+                <a href="age.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-gpa.png" alt="">
+                <h5 class="mb-3">CGPA Calculator</h5>
+                <a href="gpa.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-calories.png" alt="">
+                <h5 class="mb-3">Calorie Calculator</h5>
+                <a href="Calorie.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-byte.png" alt="">
+                <h5 class="mb-3">Data Storage Conversion</h5>
+                <a href="data storage.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/ICON-bmi.png" alt="">
+                <h5 class="mb-3">BMI Calculator</h5>
+                <a href="Bmi.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Service End -->
+
+
+
+    <!-- Footer Start --> 
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>Haroon Abad</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>+923110602310</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>Saimtahirs786@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2023, All Right Reserved <a href="https://aboutthepc.com/">FeeOptimizer</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="Privacy Policy.html">Privacy policy</a></li>
+                                <li><a href="Disclaimer.html">Disclaimer</a></li>
+                                <li><a href="Terms.html">Term and Conditions</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </footer>                   
+   
+    
+    <!-- Footer End -->
+
+     <!-- Back to Top -->
+     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+        class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"
+                integrity=
+    "sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ=="
+                crossorigin="anonymous"
+                referrerpolicy="no-referrer">
+        </script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

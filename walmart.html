@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Walmart Fee Calculator</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/icon-1.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+   <!-- Navbar Start -->
+   <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+    <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <h2 class="m-0 text-primary"><img class="img-fluid me-2" src="img/icon-1.png" alt=""
+                style="width: 45px;">FeeOptimizer</h2>
+    </a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-4 py-lg-0">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+
+            <div class="nav-item dropdown">
+                <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">E-Commerce Calculators</a>
+                <div class="dropdown-menu shadow-sm m-0">
+                    <a href="Amazon.html" class="dropdown-item">Amazon</a>
+                    <a href="walmart.html" class="dropdown-item">WalMart</a>
+                    <a href="ebay.html" class="dropdown-item">eBay</a>
+                    <a href="Etsy.html" class="dropdown-item">Etsy</a>
+                    <a href="StockX.html" class="dropdown-item">StockX</a>
+                    <a href="paypal.html" class="dropdown-item">Paypal</a>
+                </div>
+            </div>
+            <div class="nav-item dropdown">
+                <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Financial Calculators</a>
+                <div class="dropdown-menu shadow-sm m-0">
+                    <a href="Salary.html" class="dropdown-item">Salary Calculator</a>
+                    <a href="retirment.html" class="dropdown-item">Retirement Calculator</a>
+                    <a href="lone.html" class="dropdown-item">Loan Calculator</a>
+                    <a href="investment.html" class="dropdown-item">Investment Calculator</a>
+                    <a href="I Rate.html" class="dropdown-item">Interest Rate Calculator</a>
+                    <a href="payment.html" class="dropdown-item">Payment Calculator</a>
+                </div>
+            </div>
+            <div class="nav-item dropdown">
+                <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Other Calculators</a>
+                <div class="dropdown-menu shadow-sm m-0">
+                    <a href="conversion.html" class="dropdown-item"> Conversion Calculator</a>
+                    <a href="age.html" class="dropdown-item">Age Calculator</a>
+                    <a href="gpa.html" class="dropdown-item">CGPA Calculator</a>
+                    <a href="Calorie.html" class="dropdown-item">Calorie Calculator
+                    </a>
+                    <a href="data storage.html" class="dropdown-item">Data Storage Conversion</a>
+                    <a href="Bmi.html" class="dropdown-item">BMI Calculator</a>
+
+                </div>
+            </div>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tools</a>
+                <div class="dropdown-menu shadow-sm m-0">
+                    <a href="YT thum.html" class="dropdown-item">Thumbnails Downloder</a>
+                    <a href="Password.html" class="dropdown-item">Password Genrator</a>
+                    <a href="words.html" class="dropdown-item">Word Counter</a>
+                    <a href="QR.html" class="dropdown-item">QR Code Genrator</a>
+                   
+                </div>
+            </div>
+        </div>
+
+
+       
+    </div>
+</nav>
+<!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid hero-header bg-light py-5 mb-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 mb-3 animated slideInDown">Walmart Fee Calculator.</h1>
+                    <p class="animated slideInDown">Walmart charges between 8% and 20% of the total sales profits from the sale of each goods. In most categories, the fee is 15%.
+                    Unlike Amazon, Walmart does not impose setup, subscription, or ongoing account fees.
+                        .</p>
+                    <a href="index.html" class="btn btn-primary py-3 px-4 animated slideInDown">Explore More</a>
+                </div>
+                <div class="col-lg-6 animated fadeIn">
+                    <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/hero-walmart.png"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+       <div class="container">
+        <h1>Walmart Marketplace Fee Calculator</h1>
+        <div id="calculator">
+            <h2>Product Details</h2>
+            <label for="productCategory">Product Category:</label>
+            <input type="text" id="productCategory">
+            <label for="itemPrice">Item Price:</label>
+            <input type="number" id="itemPrice">
+            <label for="shippingCharges">Shipping Charges:</label>
+            <input type="number" id="shippingCharges">
+            <label for="itemCost">Item Cost:</label>
+            <input type="number" id="itemCost">
+            <label for="taxes">Taxes:</label>
+            <input type="number" id="taxes">
+    
+            <button id="calculateButton">Calculate Fee</button>
+    
+            <div class="result-container">
+                <div id="results" class="result-card"></div>
+                <div id="pieChart" class="chart"></div>
+                <div id="barGraph" class="chart"></div>
+            </div>
+        </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.28.3"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+    const calculateButton = document.getElementById("calculateButton");
+    const resultsContainer = document.getElementById("results");
+    const pieChartContainer = document.getElementById("pieChart");
+    const barGraphContainer = document.getElementById("barGraph");
+
+    calculateButton.addEventListener("click", function() {
+        const productCategory = document.getElementById("productCategory").value;
+        const itemPrice = parseFloat(document.getElementById("itemPrice").value);
+        const shippingCharges = parseFloat(document.getElementById("shippingCharges").value);
+        const itemCost = parseFloat(document.getElementById("itemCost").value);
+        const taxes = parseFloat(document.getElementById("taxes").value);
+
+        const taxesResult = taxes;
+        const referralFee = 0.15 * (itemPrice + shippingCharges);
+        const totalCost = itemCost + shippingCharges + taxesResult + referralFee;
+        const grossProfit = itemPrice - totalCost;
+        const profitMargin = (grossProfit / itemPrice) * 100;
+
+        resultsContainer.innerHTML = `
+            <div class="result-field">
+                <div class="result-label">Taxes:</div>
+                <div class="result-value">${taxesResult}</div>
+            </div>
+            <div class="result-field">
+                <div class="result-label">Referral Fee:</div>
+                <div class="result-value">${referralFee}</div>
+            </div>
+            <div class="result-field">
+                <div class="result-label">Total Cost:</div>
+                <div class="result-value">${totalCost}</div>
+            </div>
+            <div class="result-field">
+                <div class="result-label">Gross Profit:</div>
+                <div class="result-value">${grossProfit}</div>
+            </div>
+            <div class="result-field">
+                <div class="result-label">Profit Margin:</div>
+                <div class="result-value">${profitMargin.toFixed(2)}%</div>
+            </div>
+        `;
+
+        const pieChartData = [taxesResult, referralFee, totalCost, grossProfit];
+        const pieChartLabels = ['Taxes', 'Referral Fee', 'Total Cost', 'Gross Profit'];
+
+        const pieChartOptions = {
+            series: pieChartData,
+            labels: pieChartLabels,
+            chart: {
+                type: 'pie',
+                height: 300
+            },
+            legend: {
+                position: 'bottom'
+            }
+        };
+
+        const pieChartInstance = new ApexCharts(pieChartContainer, pieChartOptions);
+        pieChartInstance.render();
+
+        const barGraphData = [taxesResult, referralFee, totalCost, grossProfit];
+        const barGraphLabels = ['Taxes', 'Referral Fee', 'Total Cost', 'Gross Profit'];
+
+        const barGraphOptions = {
+            series: [{
+                data: barGraphData
+            }],
+            chart: {
+                type: 'bar',
+                height: 300
+            },
+            xaxis: {
+                categories: barGraphLabels
+            },
+            yaxis: {
+                title: {
+                    text: 'Value'
+                }
+            }
+        };
+
+        const barGraphInstance = new ApexCharts(barGraphContainer, barGraphOptions);
+        barGraphInstance.render();
+    });
+});
+
+        </script>
+
+
+<!--blog-->
+<div class="container">
+    <div class="card">
+      <div class="container">
+        <P>Walmart's third-party seller network offers an opportunity to make money for vendors and business owners seeking to broaden their customer base and sell goods on one of the biggest marketplaces on the web. However, it might be difficult to understand the complexity of the expenses and fees related to selling on Walmart. In this article, we explore the Walmart Fee Calculator, a potent tool that gives sellers the transparency, cost insights, and better decision-making they need for success in the competitive e-commerce market.
+        </P>
+    </div>
+    </div>
+  
+  
+     <style>
+       
+   
+       th, td {
+         border: 1px solid #000000;
+         padding: 8px;
+         text-align: left;
+       }
+   
+       th {
+         background-color: #f2f2f2;
+       }
+   
+       tr:nth-child(even) {
+         background-color: #f2f2f2;
+       }
+      
+   table{
+    color: black;
+   }
+     </style>
+   </head>
+   <body>
+    <div class="card">
+        <div class="container">
+        <h2>Walmart Fee Structure</h2>       
+      <P>Walmart charges sellers various fees to access its vast customer base and robust logistics infrastructure. These fees include referral fees, fulfillment fees, subscription fees, and payment processing fees. Additionally, sellers may incur additional charges for optional services like advertising or product promotion. The cumulative impact of these fees can significantly impact profit margins, making it essential for sellers to have a clear understanding of the financial implications. </P>
+    <table>
+        <tr>
+            <th>Fee Type</th>
+            <th>Description</th>
+            <th>Amount</th>
+        </tr>
+        <tr>
+            <td>Referral Fee</td>
+            <td>Percentage of item price charged on each sale</td>
+            <td>$1.00 or 10%</td>
+        </tr>
+        <tr>
+            <td>Fulfillment Fee</td>
+            <td>Charged per unit for handling, packing, and shipping</td>
+            <td>$2.50</td>
+        </tr>
+        <tr>
+            <td>Subscription Fee</td>
+            <td>Monthly fee for Professional Selling Plan</td>
+            <td>$39.99</td>
+        </tr>
+        <tr>
+            <td>Payment Processing Fee</td>
+            <td>Percentage of the item price plus the referral fee</td>
+            <td>2.9% + $0.30</td>
+        </tr>
+        <!-- Additional rows for more fees -->
+        <tr>
+            <td>Return Processing Fee</td>
+            <td>Charged for processing returns</td>
+            <td>$5.00</td>
+        </tr>
+        <tr>
+            <td>Advertising Fee</td>
+            <td>Optional fee for promoting products on Walmart</td>
+            <td>Varies</td>
+        </tr>
+        <tr>
+            <td>Long-term Storage Fee</td>
+            <td>Charged for holding inventory in a fulfillment center for an extended period</td>
+            <td>$0.75 per unit per month</td>
+        </tr>
+        <tr>
+            <td>Removal Fee</td>
+            <td>Charged for removing inventory from a fulfillment center</td>
+            <td>$0.50 per unit</td>
+        </tr>
+        <!-- Add more rows for additional fees as needed -->
+    </table>
+
+    <style>
+    
+        th, td {
+          border: 1px solid #000000;
+          padding: 8px;
+          text-align: left;
+        }
+    
+        th {
+          background-color: #000000;
+          color: white;
+        }
+    
+        tr:nth-child(even) {
+          background-color: #f2f2f2;
+        }
+        table{
+            color: black;
+        }
+        
+      </style>
+     <div class="container">
+            <div class="container">
+                <h3>Transparency for Seller Empower</h3>
+            <P>For sellers, the Walmart Fee Calculator is an outstanding instance of openness since it gives a detailed analysis of the costs related to using the platform. Sellers may get instantaneous estimates of the costs associated with each transaction by providing important details such as product category, item pricing, and delivery details. This enables sellers to decide with knowledge, optimise pricing tactics, and forecast earnings accurately.<P>
+                <h3>Increased profitability and cost management</h3>
+                <P>Profitability is crucial for any type of organization. By enabling sellers to evaluate various price situations and comprehend the effects of price changes on their bottom line, the Walmart Fee Calculation plays a crucial role in maximizing profitability. Additionally, it allows sellers to properly control expenses by evaluating their options</P>
+                <h3>creating the Onboarding Process Faster</h3>
+                <P>It might be difficult for those new to the Walmart marketplace to grasp the charge structure. By giving a thorough breakdown of the relevant fees, the Walmart Fee Calculator streamlines the process of getting started. As a result, the decision-making process is streamlined, more vendors are enticed to join the platform, and competitiveness is promoted.</P>
+                <h3>Getting Around in a Highly Competitive Setting</h3>
+                <P>The e-commerce industry is fiercely competitive, and luring clients depends heavily on pricing. With the help provided by the Walmart Fee Calculator, retailers can price their products attractively without sacrificing profitability. Sellers should plan their products to differentiate themselves from the competition, attracting customers while maintaining a healthy profit.</P>
+                <h3>Future Growth and Expansion</h3>
+                <P>The Walmart Fee Calculator is a tactical tool for long-term development and growth for ambitious merchants. Sellers might decide to broaden their products and increase their market share by comprehending the financial ramifications of selling across several categories and product lines.</P>
+    
+                <table>
+                    <tr>
+                        <th>Key Aspect</th>
+                        <th>Description</th>
+                        <th>Benefits</th>
+                    </tr>
+                    <tr>
+                        <td>1. Diversifying Product Offerings</td>
+                        <td>Expand product range to target new customer segments and increase market share.</td>
+                        <td>
+                            <ul>
+                                <li>Tap into new markets and demographics</li>
+                                <li>Reduce dependency on single product lines</li>
+                                <li>Boost revenue potential</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2. Geographic Expansion</td>
+                        <td>Extend operations to new geographical regions or countries.</td>
+                        <td>
+                            <ul>
+                                <li>Access untapped markets</li>
+                                <li>Increase brand visibility globally</li>
+                                <li>Leverage economies of scale</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3. Strategic Partnerships</td>
+                        <td>Collaborate with other businesses to mutually benefit from complementary resources.</td>
+                        <td>
+                            <ul>
+                                <li>Access new distribution channels</li>
+                                <li>Share expertise and knowledge</li>
+                                <li>Expand customer base through cross-promotion</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+              </div>
+              </div>
+    
+</div>
+</div>
+
+
+
+
+ <!-- Service Start  -->
+ <div class="container py-5">
+    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+        <h1 class="display-6">E-Commerce Calculators</h1>
+    </div>
+    <div class="row g-4">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-7.png" alt="">
+                <h5 class="mb-3">Amazon</h5>
+                <a href="Amazon.html">Calculat Your Fee <i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
+                <h5 class="mb-3">WalMart</h5>
+                <a href="walmart.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-9.png" alt="">
+                <h5 class="mb-3">eBay</h5>
+                <a href="ebay.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-5.png" alt="">
+                <h5 class="mb-3">Etsy</h5>
+                <a href="Etsy.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
+                <h5 class="mb-3">StockX</h5>
+                <a href="StockX.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-8.png" alt="">
+                <h5 class="mb-3">Paypal</h5>
+                <a href="paypal.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!-- Service End -->
+
+
+ 
+<!-- Service Start 02-->
+<div class="container py-5">
+    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+        <h1 class="display-6">Financial Calculators</h1>
+    </div>
+    <div class="row g-4">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-salary .png" alt="">
+                <h5 class="mb-3">Salary Calculator</h5>
+                <a href="Salary.html">Calculat Your Fee <i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-Retirement .png" alt="">
+                <h5 class="mb-3">Retirement Calculator</h5>
+                <a href="retirment.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-Loan.png" alt="">
+                <h5 class="mb-3">Loan Calculator</h5>
+                <a href="lone.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-Investment.png" alt="">
+                <h5 class="mb-3">Investment Calculator</h5>
+                <a href="investment.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-Interest Rate .png" alt="">
+                <h5 class="mb-3">Interest Rate Calculator</h5>
+                <a href="I Rate.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-Payment.png" alt="">
+                <h5 class="mb-3">Payment Calculator</h5>
+                <a href="payment.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Service End -->
+
+ <!-- Service Start 03-->
+ <div class="container py-5">
+    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+        <h1 class="display-6">Other Calculators</h1>
+    </div>
+    <div class="row g-4">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-conversion.png" alt="">
+                <h5 class="mb-3">Conversion Calculator</h5>
+                <a href="conversion.html">Calculat Your Fee <i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-age.png" alt="">
+                <h5 class="mb-3">Age Calculator</h5>
+                <a href="age.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-gpa.png" alt="">
+                <h5 class="mb-3">CGPA Calculator</h5>
+                <a href="gpa.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-calories.png" alt="">
+                <h5 class="mb-3">Calorie Calculator</h5>
+                <a href="Calorie.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-byte.png" alt="">
+                <h5 class="mb-3">Data Storage Conversion</h5>
+                <a href="data storage.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/ICON-bmi.png" alt="">
+                <h5 class="mb-3">BMI Calculator</h5>
+                <a href="Bmi.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Service End -->
+
+   <!-- Footer Start --> 
+   <footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span>1010 Avenue, sw 54321, chandigarh</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>9876543210 0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>mail@info.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2023, All Right Reserved <a href="https://aboutthepc.com/">FeeOptimizer</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="Privacy Policy.html">Privacy policy</a></li>
+                            <li><a href="Disclaimer.html">Disclaimer</a></li>
+                            <li><a href="Terms.html">Term and Conditions</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>                   
+
+
+<!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fiverr Fee Calculator</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/icon-1.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+     <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h2 class="m-0 text-primary"><img class="img-fluid me-2" src="img/icon-1.png" alt=""
+                    style="width: 45px;">FeeOptimizer</h2>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+
+                <div class="nav-item dropdown">
+                    <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">E-Commerce Calculators</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="Amazon.html" class="dropdown-item">Amazon</a>
+                        <a href="walmart.html" class="dropdown-item">WalMart</a>
+                        <a href="ebay.html" class="dropdown-item">eBay</a>
+                        <a href="Etsy.html" class="dropdown-item">Etsy</a>
+                        <a href="StockX.html" class="dropdown-item">StockX</a>
+                        <a href="paypal.html" class="dropdown-item">Paypal</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Financial Calculators</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="Salary.html" class="dropdown-item">Salary Calculator</a>
+                        <a href="retirment.html" class="dropdown-item">Retirement Calculator</a>
+                        <a href="lone.html" class="dropdown-item">Loan Calculator</a>
+                        <a href="investment.html" class="dropdown-item">Investment Calculator</a>
+                        <a href="I Rate.html" class="dropdown-item">Interest Rate Calculator</a>
+                        <a href="payment.html" class="dropdown-item">Payment Calculator</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Other Calculators</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="conversion.html" class="dropdown-item"> Conversion Calculator</a>
+                        <a href="age.html" class="dropdown-item">Age Calculator</a>
+                        <a href="gpa.html" class="dropdown-item">CGPA Calculator</a>
+                        <a href="Calorie.html" class="dropdown-item">Calorie Calculator</a>
+                        <a href="data storage.html" class="dropdown-item">Data Storage Conversion</a>
+                        <a href="Bmi.html" class="dropdown-item">BMI Calculator</a>
+
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tools</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="YT thum.html" class="dropdown-item">Thumbnails Downloder</a>
+                        <a href="Password.html" class="dropdown-item">Password Genrator</a>
+                        <a href="words.html" class="dropdown-item">Word Counter</a>
+                        <a href="QR.html" class="dropdown-item">QR Code Genrator</a>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid hero-header bg-light py-5 mb-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 mb-3 animated slideInDown">Fiverr Fee Calculator</h1>
+                    <p class="animated slideInDown">You may find out the Fiverr fees that a seller will be required to pay on each order using the first calculator (Fiverr Seller Fee Calculator).
+                        <p>(Fiverr Buyer cost Calculator) will display the cost that Fiverr will demand from each customer making a transaction through their online marketplace.</p>
+                        .</p>
+                    <a href="upwork.html" class="btn btn-primary py-3 px-4 animated slideInDown">Upwork Fee Calculator</a>
+                </div>
+                <div class="col-lg-6 animated fadeIn">
+                    <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/hero-fiverr.png"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+       <style>
+      
+
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px;
+  opacity: 0.9;
+}
+
+h2 {
+  margin-top: 0;
+  color: rgb(0, 0, 0);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, button {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  font-size: 18px;
+  color: black;
+}
+label{
+    color: rgb(0, 0, 0);
+}
+
+       </style>
+          <div class="container">
+            <div class="card seller">
+              <h2>Fiverr Seller Fee Calculator</h2>
+              <form id="sellerCalculatorForm">
+                <label for="sellerGigPrice">Gig Price ($):</label>
+                <input type="number" id="sellerGigPrice" step="0.01" required>
+                <label for="sellerServiceFee">Service Fee (%):</label>
+                <input type="number" id="sellerServiceFee" step="0.1" required>
+                <button type="submit">Calculate</button>
+                <p id="sellerResult"></p>
+              </form>
+            </div>
+        
+            <div class="card buyer">
+              <h2>Fiverr Buyer Fee Calculator</h2>
+              <form id="buyerCalculatorForm">
+                <label for="buyerOrderPrice">Order Price ($):</label>
+                <input type="number" id="buyerOrderPrice" step="0.01" required>
+                <label for="buyerServiceFee">Service Fee (%):</label>
+                <input type="number" id="buyerServiceFee" step="0.1" required>
+                <button type="submit">Calculate</button>
+                <p id="buyerResult"></p>
+              </form>
+            </div>
+          </div>
+          <script>
+          // Seller Fee Calculator Form Submit
+            document.getElementById("sellerCalculatorForm").addEventListener("submit", function (e) {
+              e.preventDefault();
+              const gigPrice = parseFloat(document.getElementById("sellerGigPrice").value);
+              const serviceFee = parseFloat(document.getElementById("sellerServiceFee").value);
+              const sellerFee = (gigPrice * serviceFee) / 100;
+              document.getElementById("sellerResult").innerText = `Seller Fee: $${sellerFee.toFixed(2)}`;
+            });
+            
+            // Buyer Fee Calculator Form Submit
+            document.getElementById("buyerCalculatorForm").addEventListener("submit", function (e) {
+              e.preventDefault();
+              const orderPrice = parseFloat(document.getElementById("buyerOrderPrice").value);
+              const serviceFee = parseFloat(document.getElementById("buyerServiceFee").value);
+              const buyerFee = (orderPrice * serviceFee) / 100;
+              document.getElementById("buyerResult").innerText = `Buyer Fee: $${buyerFee.toFixed(2)}`;
+            });
+            </script>
+     
+        <!---Blog post-->
+
+    <div class="container">
+        <div class="card">
+           <P>Fiverr has become a key platform for bridging freelancers and corporations globally in the current gig economy. It offers creative individuals a wide range of services, making it a valuable platform for freelancers to market their abilities and earn a living online. Understanding how the Fiverr Fee Calculator operates is crucial for freelancers using the platform in order to maximise their revenue. This in-depth guide will help you navigate the Fiverr Fee Calculator's complexities and make the most of your freelance career<P>
+        </div>
+        </div>
+        <div class="container">
+            <div class="card">
+            <h2>Recognising Fiverr's Fee Structure</h2> 
+           <P>Let's quickly go over the platform's pricing structure before getting into the Fiverr pricing Calculator. Sellers on Fiverr are often charged two different sorts of fees: a service fee and a cost for handling payments.</P>
+           <P><b>1: Service Charge: </b>Each fulfilled order on Fiverr carries a flat 20% commission fee. As an illustration, if you charge $100 for a service, Fiverr will withhold $20 as a service fee from your payment, leaving you with $80.</P>
+           <p><b>2: Payment Processing Fee: </b>In addition to the service price, each transaction has a payment processing fee. Depending on the payment method used by the seller, this fee can be anywhere between 2% and 5% of the entire order amount</p>
+            </div>
+            </div>
+            <div class="container">
+                <div class="card">
+            <h2>Utilising the Fiverr Fee Calculator to Calculate Earnings</h2>   
+            <P>You can use the Fiverr Fee Calculator to precisely estimate your prospective profits on Fiverr. Here is a detailed explanation on how to utilise it:</P>
+          <h3>Step 1: Access the Fiverr fee estimator.</h3>
+            <P> Go to the Fiverr website's official page and log in. On the "Selling" tab, select "Earnings." On this page, you may use the Fiverr Fee Calculator.</P>
+            <h3>Step 2: Enter the service price</h3>
+            <P>Select your chosen mode of payment for your transactions. Keep in mind that different payment options have different processing costs, which will have an impact on your overall income.</P>
+            
+            <h3>Step 3: Review the earnings</h3>
+            <P> The calculator will show your potential profits after deducting the service fee and the payment processing cost once you have filled out the appropriate questions. This sum is the value of the finished order that you will get.</P>
+                </div>
+                </div>
+
+                <div class="container">
+                    <div class="card">
+                <h2>Tips to Increase Your Fiverr Earnings</h2>
+                <P>Now that you are familiar with how the Fiverr Fee Calculator operates, let's look at some helpful advice for increasing your profits on the site:</P>
+                <P><B>1. Competitive Pricing:</B> Conduct market research on your rivals to determine a pricing that is both competitive and fair for your services. While maintaining competition is important, underpaying for your expertise can result in poor pay.</P>
+              <P><b>2. Upselling and gig extras:</b>To boost the value of your order, provide extra services or packages as gig extras. Adding more value for customers may result in increased profits and favourable reviews.</P> 
+              <P><b>3. Improve Gig Descriptions and Tags:</b>To increase your exposure in search results, use pertinent keywords in your gig descriptions and tags. More orders and thus more profits can come from greater visibility.</P> 
+              <P><b>4. Produce High-Quality Work:</b>Customers who are happy with your work are more inclined to write good reviews and place repeat orders. Maintain a high standard of professionalism while striving to produce work of great quality.</P> 
+                    </div>
+                    </div>
+        
+   
+      <!-- Service Start  -->
+      <div class="container py-5">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h2 class="display-6">E-Commerce Calculators</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-7.png" alt="">
+                    <h5 class="mb-3">Amazon</h5>
+                    <a href="Amazon.html">Calculat Your Fee <i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
+                    <h5 class="mb-3">WalMart</h5>
+                    <a href="walmart.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-9.png" alt="">
+                    <h5 class="mb-3">eBay</h5>
+                    <a href="ebay.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-5.png" alt="">
+                    <h5 class="mb-3">Etsy</h5>
+                    <a href="Etsy.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
+                    <h5 class="mb-3">StockX</h5>
+                    <a href="StockX.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item bg-white p-5">
+                    <img class="img-fluid mb-4" src="img/icon-8.png" alt="">
+                    <h5 class="mb-3">Paypal</h5>
+                    <a href="paypal.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<!-- Service End -->
+
+<!-- Service Start 02-->
+<div class="container py-5">
+<div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+    <h2 class="display-6">Financial Calculators</h2>
+</div>
+<div class="row g-4">
+    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="service-item bg-white p-5">
+            <img class="img-fluid mb-4" src="img/icon-salary .png" alt="">
+            <h5 class="mb-3">Salary Calculator</h5>
+            <a href="Salary.html">Calculat Your Fee <i class="fa fa-arrow-right ms-2"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="service-item bg-white p-5">
+            <img class="img-fluid mb-4" src="img/icon-Retirement .png" alt="">
+            <h5 class="mb-3">Retirement Calculator</h5>
+            <a href="retirment.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+        <div class="service-item bg-white p-5">
+            <img class="img-fluid mb-4" src="img/icon-Loan.png" alt="">
+            <h5 class="mb-3">Loan Calculator</h5>
+            <a href="lone.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="service-item bg-white p-5">
+            <img class="img-fluid mb-4" src="img/icon-Investment.png" alt="">
+            <h5 class="mb-3">Investment Calculator</h5>
+            <a href="investment.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="service-item bg-white p-5">
+            <img class="img-fluid mb-4" src="img/icon-Interest Rate .png" alt="">
+            <h5 class="mb-3">Interest Rate Calculator</h5>
+            <a href="I Rate.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+        <div class="service-item bg-white p-5">
+            <img class="img-fluid mb-4" src="img/icon-Payment.png" alt="">
+            <h5 class="mb-3">Payment Calculator</h5>
+            <a href="payment.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!-- Service End -->
+
+<!-- Service Start 03-->
+<div class="container py-5">
+    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+        <h2 class="display-6">Other Calculators</h2>
+    </div>
+    <div class="row g-4">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-conversion.png" alt="">
+                <h5 class="mb-3">Conversion Calculator</h5>
+                <a href="conversion.html">Calculat Your Fee <i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-age.png" alt="">
+                <h5 class="mb-3">Age Calculator</h5>
+                <a href="age.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-gpa.png" alt="">
+                <h5 class="mb-3">CGPA Calculator</h5>
+                <a href="gpa.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-calories.png" alt="">
+                <h5 class="mb-3">Calorie Calculator</h5>
+                <a href="Calorie.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/icon-byte.png" alt="">
+                <h5 class="mb-3">Data Storage Conversion</h5>
+                <a href="data storage.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item bg-white p-5">
+                <img class="img-fluid mb-4" src="img/ICON-bmi.png" alt="">
+                <h5 class="mb-3">BMI Calculator</h5>
+                <a href="Bmi.html">Calculat Your Fee<i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Service End -->
+
+  <!-- Footer Start --> 
+  <footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span>1010 Avenue, sw 54321, chandigarh</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>9876543210 0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>mail@info.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2023, All Right Reserved <a href="https://aboutthepc.com/">FeeOptimizer</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="Privacy Policy.html">Privacy policy</a></li>
+                            <li><a href="Disclaimer.html">Disclaimer</a></li>
+                            <li><a href="Terms.html">Term and Conditions</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>                   
+
+
+<!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
